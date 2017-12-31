@@ -437,12 +437,12 @@ footer {
 /*---------------------------------------
     Regsiter section
 -----------------------------------------*/
-register {
-    
+#register {
     -webkit-background-size: cover;
     background-size: cover;
     background-position: center center;
     color: #ffffff;
+		padding-top: 15em;
 }
 
 /*---------------------------------------
