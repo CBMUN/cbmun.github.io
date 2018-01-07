@@ -1002,16 +1002,16 @@ gtco-cover > .gtco-container {
 	display: block;
 }
 #nino-brand a:hover {
-	-webkit-transform: scale(1.1,1.1);
-	   -moz-transform: scale(1.1,1.1);
-		 -o-transform: scale(1.1,1.1);
-		-ms-transform: scale(1.1,1.1);
-			transform: scale(1.1,1.1);
+	-webkit-transform: scale(2.5,2.5);
+	   -moz-transform: scale(2.5,2.5);
+		 -o-transform: scale(2.5,2.5);
+		-ms-transform: scale(2.5,2.5);
+			transform: scale(2.5,2.5);
 }
 
 #nino-brand img {
-	height: 9.375em;
-	width: 9.375em;
+	height: 10em;
+	width: 10em;
 }
 
 #nino-brand figcaption {
