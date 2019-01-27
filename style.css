@@ -1228,9 +1228,6 @@ body {
 /*------------------------------------------------------------
 # Page Header
 ------------------------------------------------------------*/
-.tickets-page .page-header {
-    background: url("images/tickets-page-header-background.jpg") no-repeat;
-}
 
 .tickets-page .tabs {
     margin-top: 80px;
@@ -1472,13 +1469,8 @@ body {
 /*------------------------------------------------------------
 # site-header
 ------------------------------------------------------------*/
-.blog-page .page-header {
-    background: url("images/cover.jpg") no-repeat;
-}
 
-.blog-list-page .single-blog-content {
-    display: none;
-}
+
 
 .blog-list-page .single-blog-content.visible {
     display: block;
@@ -1574,9 +1566,6 @@ body {
 /*------------------------------------------------------------
 # site-header
 ------------------------------------------------------------*/
-.contact-page .page-header {
-    background: url("images/cover.jpg") no-repeat;
-}
 
 .contact-page .main-content {
     background: #fff;
@@ -1708,9 +1697,7 @@ body {
     background: url("images/elements-total-background.jpg") no-repeat;
 }
 
-.elements-page .page-header {
-    background: url("images/elements-header-background.jpg") no-repeat;
-}
+
 
 .elements-page .elements-wrap {
     margin-bottom: 110px;
