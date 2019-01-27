@@ -54,16 +54,13 @@ body {
     max-width: 100%;
 }
 
-/*------------------------------------------------------------
-## header-bar
-------------------------------------------------------------*/
 .site-header .header-bar {
     position: absolute;
     top: 0;
     left: 0;
     z-index: 99;
     width: 100%;
-    padding: 40px 0;
+    padding: 20px 0;
 }
 
 .header-bar .site-branding {
@@ -78,8 +75,6 @@ body {
     font-family: 'Marcellus', serif;
 }
 
-/*------------------------------------------------------------
-### site-navigation
 ------------------------------------------------------------*/
 /*
   Hamburger Menu
@@ -1722,7 +1717,7 @@ body {
 }
 
 .elements-page .elements-wrap .entry-header h2.entry-title {
-    color: #040608;
+    color: black;
     font-size: 48px;
     font-weight: 600;
 }
@@ -1821,7 +1816,7 @@ body {
     margin-top: 0;
     font-size: 24px;
     font-weight: 500;
-    color: #040608;
+    color: black;
 }
 
 .tabs-container .tab-content p {
@@ -1926,7 +1921,7 @@ body {
     margin: 0;
     font-size: 24px;
     font-weight: 600;
-    color: #050505;
+    color: black;
 }
 
 .icon-box .entry-content {
@@ -1947,4 +1942,27 @@ body {
 
 .icon-box-3 .entry-header::before {
     content: "03.";
+}
+
+.nav {
+  float: right;
+}
+
+.nav a{
+  color: black;
+}
+
+.nav a:hover{
+  color: #652234;
+}
+
+.dropdown-menu {
+  border: 0;
+  background: rgb(128,128,128, 0.5);
+  padding: 0;
+}
+
+.dropdown-menu a:hover{
+  background: none;
+  color: #652234;
 }

@@ -9,7 +9,7 @@
 
     <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
 
     <!-- FontAwesome CSS -->
     <link rel="stylesheet" href="css/fontawesome-all.min.css">
@@ -33,28 +33,44 @@
                     </div>
 
                     <div class="col-2 col-lg-8">
-                        <nav class="site-navigation" role="navigation">
-                            <div class="hamburger-menu d-lg-none">
-                                <span></span>
-                                <span></span>
-                                <span></span>
-                                <span></span>
-                            </div><!-- .hamburger-menu -->
+                            <ul class="nav align-items-right">
+                              <li class="nav-item">
+                                <a class="nav-link " href="index.html">Home</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link " href="#">About</a>
+                              </li>
+                              <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Committees</a>
+                                <div class="dropdown-menu">
+                                  <a class="dropdown-item" href="#">ECOSOC and Regional Body</a>
+                                  <a class="dropdown-item" href="#">Specialized Agencies</a>
+                                  <a class="dropdown-item" href="#">General Assembly</a>
+                                </div>
+                              </li>
+                              <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Team</a>
+                                <div class="dropdown-menu">
+                                  <a class="dropdown-item" href="#">Team LPSS</a>
+                                  <a class="dropdown-item" href="#">Convening Body</a>
+                                </div>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="#">Delegate Centre</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="#">Contact</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSclSlJdxUUdHmzBDMDLe5zEK-u8E2h--da_I-w8ASoSfrZvVg/viewform">Register</a>
+                              </li>
+                            </ul>
 
-                            <ul>
-                                <li><a href="index.html">Home</a></li>
-                                <li><a href="#">About</a></li>
-                                <li><a href="#">Committees</a></li>
-                                <li><a href="#">Team</a></li>
-                                <li><a href="#">Contact</a></li>
-                                <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSclSlJdxUUdHmzBDMDLe5zEK-u8E2h--da_I-w8ASoSfrZvVg/viewform">Register</a></li>
-                            </ul><!-- flex -->
-                        </nav><!-- .site-navigation -->
-                    </div><!-- .col-12 -->
-                </div><!-- .row -->
-            </div><!-- container-fluid -->
-        </div><!-- header-bar -->
-    </header><!-- .site-header -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
 
     <div class="hero-content">
         <div class="container">
@@ -394,68 +410,6 @@
                 </div><!-- .slider-button -->
             </div><!-- .next-event-slider-wrap -->
         </div><!-- homepage-next-events -->
-
-        <div class="home-page-last-news">
-            <div class="container">
-                <div class="header">
-                    <div class="entry-title">
-                        <p>Stay Up-to-date</p>
-                        <h2>Delegate News</h2>
-                    </div>
-                </div>
-
-                <div class="home-page-last-news-wrap">
-                    <div class="row">
-                        <div class="col-12 col-md-6">
-                            <figure class="featured-image">
-                                <a href="#"> <img src="images/r-open.jpg" alt="fesival+celebration"> </a>
-                            </figure>
-
-                            <div class="box-link-date">
-                                <a href="#">03.01.19</a>
-                            </div>
-
-                            <div class="content-wrapper">
-                                <div class="entry-content">
-                                    <div class="entry-header">
-                                        <h2><a href="#">Registerations Open</a></h2>
-                                    </div>
-
-                                    <div class="entry-description">
-                                        <p>Registerations are now open. Please sign up <a href="https://docs.google.com/forms/d/e/1FAIpQLSclSlJdxUUdHmzBDMDLe5zEK-u8E2h--da_I-w8ASoSfrZvVg/viewform" target="_blank">here</a></p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!--<div class="col-12 col-md-6">
-                            <figure class="featured-image">
-                                <a href="#"> <img src="images/news-image-1.jpg" alt="fesival+celebration"> </a>
-                            </figure>
-
-                            <div class="box-link-date">
-                                <a href="">03.12.18</a>
-                            </div>
-
-                            <div class="content-wrapper">
-                                <div class="entry-content">
-                                    <div class="entry-header">
-                                        <h2><a href="#">Socials Announced</a></h2>
-                                    </div>
-
-                                    <div class="entry-description">
-                                        <p>Quisque at erat eu libero consequat tempus.
-                                            Quisque mole stie convallis tempus.
-                                            Ut semper purus metus, a euismod sapien sodales ac.
-                                            Duis viverra eleifend fermentum.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>-->
-                    </div>
-                </div>
-            </div>
-        </div>
     </div>
 
     <footer class="site-footer">
@@ -496,7 +450,9 @@
         </div><!-- footer-content-wrapper -->
     </footer><!-- site-footer -->
 
-    <script type='text/javascript' src='js/jquery.js'></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
     <script type='text/javascript' src='js/masonry.pkgd.min.js'></script>
     <script type='text/javascript' src='js/jquery.collapsible.min.js'></script>
     <script type='text/javascript' src='js/swiper.min.js'></script>
