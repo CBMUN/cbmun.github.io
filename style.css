@@ -1953,3 +1953,11 @@ body {
   background: none;
   color: #652234;
 }
+
+#grid {
+  min-height: 400px;
+}
+
+#grid figcaption {
+  padding-top: 10em;
+}
