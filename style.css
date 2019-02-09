@@ -1967,6 +1967,7 @@ body {
 
 
 btn-success {
-  background-color:;
-  border-color:;
+  color: black;
+  background-color:-webkit-linear-gradient(#00d0ff, #25ffbf);
+  border-color:-webkit-linear-gradient(#00d0ff, #25ffbf);
 }
